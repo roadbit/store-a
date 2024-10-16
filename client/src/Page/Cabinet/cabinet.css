@@ -1,0 +1,531 @@
+.top_cabinet {
+    margin-top: 60px;
+}
+.top_cabinet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid var(--color-bockground-grey);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.top_cabinet h2 {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+}
+.top_cabinet button {
+    border: none;
+    font-family: var(--font);
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    background-color: var(--color-white);
+}
+.top_cabinet button img {
+    margin-left: 5px;
+}
+
+
+
+.user_tabs {
+    display: flex;
+}
+.tab_user-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.tab_user-buttons button {
+    border: none;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-size: var(--size-14);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+.tab_user-content {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-bockground-grey);
+    margin-left: 20px;
+}
+
+.cabinet_form-container {
+    display: flex;
+    flex-direction: column;
+}
+.form__container {
+    display: flex;
+    flex-direction: column;
+}
+.form_group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.form_group-pass {
+    display: flex;
+    align-items: center;
+}
+.form_group-delivery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.delivery_item-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.pay_deliver-item {
+    display: flex;
+}
+
+.title_descr-cabinet {
+    margin-bottom: 20px;
+}
+.title_descr-cabinet h3 {
+    font-size: var(--size-16);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-bottom: 5px;
+}
+.title_descr-cabinet p {
+    font-size: var(--size-14);
+    color: var(--color-dark);
+}
+
+
+.form_group label p,
+.form_group-pass label p {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-bottom: 5px;
+}
+.delivery_item-input label p,
+.pay_deliver-item label p {
+    font-size: var(--size-12);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-bottom: 5px;
+}
+
+.form_group label,
+.form_group-pass label {
+    width: 100%;
+}
+.form_group label p {
+    font-size: var(--size-12);
+}
+.form_group label,
+.delivery_item-input label,
+.form_group-pass label {
+    margin-right: 10px;
+}
+.form_group label input,
+.delivery_item-input label input,
+.form_group-pass label input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--color-dark);
+    background-color: var(--color-white);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.pay_deliver-item label select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--color-dark);
+    background-color: var(--color-white);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.pay_deliver-item label {
+    margin-right: 10px;
+}
+
+.save__btn,
+.save__btn-pass {
+    width: 204px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-size: var(--size-14);
+    font-family: var(--font);
+    margin-top: 40px;
+}
+
+
+/* Wish */
+
+
+.grid_wish-container,
+.product-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 20px 15px;
+}
+.wish_card {
+    position: relative;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-bockground-grey);
+    padding: 10px;
+    border-radius: 6px; 
+}
+.viev_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-bockground-grey);
+    padding: 10px;
+    border-radius: 6px; 
+}
+.wish_card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wish_image-card,
+.view-img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+}
+.wish_card input {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.wish_title-text__card {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.view-title {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-top: 25px;
+    text-align: start;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+/* Order */
+
+.order__content-container_tab h1 {
+    font-size: var(--size-16);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-bottom: 20px;
+}
+.select_btn-item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.button_check-item button,
+.delete_btn {
+    border: 1px solid var(--color-dark);
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    font-family: var(--font);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 2px 5px;
+}
+.filter-label p {
+    color: var(--color-dark);
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    margin-bottom: 5px;
+}
+.filter-label select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px;
+    font-size: var(--size-14);
+    font-family: var(--font);
+    border: 1px solid var(--color-dark);
+    font-weight: var(--medium);
+    background-color: var(--color-white);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.order_item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 20px 15px;
+}
+.order_card-tab {
+    position: relative;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-bockground-grey);
+    padding: 10px;
+    border-radius: 6px; 
+}
+.order_card-tab span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: var(--size-12);
+    color: var(--color-dark);
+    font-weight: var(--medium);
+}
+.check_card-input {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.order_card-tab__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order_card-tab__inner img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.order-card_title {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.order-count_title,
+.order-price_title {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    color: var(--color-dark);
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.delete_btn-order {
+    display: none;
+}
+.delete_btn-order img {
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .user_tabs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .tab_user-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        overflow-x: auto;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+    .tab_user-buttons button {
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+    .tab_user-content {
+        margin-left: 0;
+        width: 96.5%;
+    }
+
+    .form_group label,
+    .delivery_item-input label {
+        margin-right: 0;
+    }
+    .pay_deliver-item label,
+    .form_group-pass label {
+        margin-right: 0;
+    }
+    .form_group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .form_group-pass {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .save__btn-pass {
+        margin-top: 10px;
+    }
+    .form_group label,
+    .form_group-pass label {
+        margin-bottom: 15px;
+    }
+    .delivery_item-input {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    .delivery_item-input label,
+    .pay_deliver-item label {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .pay_deliver-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .save__btn {
+        width: 100%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--color-dark);
+        color: var(--color-white);
+        font-size: var(--size-14);
+        font-family: var(--font);
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .tab_user-content {
+        margin-left: 0;
+        width: 96%;
+    }
+}
+@media screen and (max-width: 510px) {
+    .tab_user-content {
+        margin-left: 0;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 495px) {
+    .order_item-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+        gap: 10px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    .order_card-tab__inner img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .order-card_title {
+        font-size: var(--size-14);
+        font-weight: var(--medium);
+        color: var(--color-dark);
+        margin-top: 25px;
+        width: 150px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 470px) {
+    .grid_wish-container,
+    .order_item-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+        gap: 10px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    .wish_image-card,
+    .order_card-tab__inner img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .wish_title-text__card,
+    .order-card_title {
+        font-size: var(--size-14);
+        font-weight: var(--medium);
+        color: var(--color-dark);
+        margin-top: 25px;
+        width: 150px;
+        text-align: center;
+    }
+    .button_check-item {
+        display: flex;
+    }
+    .delete_btn-order {
+        display: flex;
+        border: 1px solid var(--color-dark);
+        background-color: var(--color-white);
+        color: var(--color-dark);
+        font-size: var(--size-14);
+        font-weight: var(--medium);
+        font-family: var(--font);
+        border-radius: 5px;
+        margin-left: 10px;
+        padding: 2px 5px;
+    }
+    .delete_btn {
+        display: none;
+    }
+}
+@media screen and (max-width: 410px) {
+    .tab_user-content {
+        margin-left: 0;
+        width: 94%;
+    }
+}

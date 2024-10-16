@@ -1,0 +1,33 @@
+.custom-select {
+    width: 190px;
+}
+.select-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid var(--color-bockground-grey);
+    border-radius: 5px;
+    font-size: var(--size-16);
+}
+.select-header img {
+    margin-left: 10px;
+}
+.select-options {
+    width: 94%;
+    position: absolute;
+    padding: 10px 5px;
+    top: 40px;
+    border: 1px solid var(--color-bockground-grey);
+    border-radius: 5px;
+    background-color: var(--color-white);
+    z-index: 10;
+}
+.select-option {
+    font-size: var(--size-14);
+    font-weight: var(--medium);
+    margin-bottom: 10px;
+}
+.select-option:last-child {
+    margin-bottom: 0;
+}
