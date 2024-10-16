@@ -10,7 +10,7 @@ import AllReviews from './AllReviews'
 import UpdateCredentials from './PanelComponents/UpdateCredentials'
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://store-a-2.onrender.com');
 
 const TabBlockPanel = ({ soundEnabled, notificationSound }) => {
   const [activeTab, setActiveTab] = useState(0);
