@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 
 export const SocketContext = createContext();
 
-const socket = io('http://localhost:5000');
+const socket = io('https://store-a-2.onrender.com');
 
 export const SocketProvider = ({ children }) => {
   const [userCount, setUserCount] = useState(0);
