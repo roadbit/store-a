@@ -46,7 +46,7 @@ const server = http.createServer(app);
 connectDB();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://store-a-q8t0.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   credentials: true
 }));
