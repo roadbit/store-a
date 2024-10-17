@@ -3,7 +3,7 @@ const socketIo = require('socket.io');
 const setupSocket = (server) => {
   const io = socketIo(server, {
     cors: {
-      origin: 'http://localhost:3000',
+      origin: 'https://store-a-q8t0.onrender.com/',
       methods: ['GET', 'POST'],
       credentials: true
     }
